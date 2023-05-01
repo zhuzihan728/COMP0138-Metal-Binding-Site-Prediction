@@ -1,0 +1,24 @@
+model: TFE # or CNN2L
+
+class_encode_path: label_encode/class_encode.json # put your class encoding here
+
+truncated_label_path: truncated_labels/ # put your truncated labels here, please split train positive and negative labels into separate files, name the pos one containing the keyword "pos" and "train" and the neg one containing the keyword "neg" and "train". The test label file should contain "test".
+
+truncated_embed_path: truncated_embeds/ # put your truncated embeddings here, please split train positive and negative embeddings into separate files, name the pos one containing the keyword "pos" and "train"  and the neg one containing the keyword "neg" and "train". The test embedding file should contain "test".
+
+CNN2L:
+  hidden_channel: 128
+  hidden_layer_num: 2
+  kernel_size: 17
+  lr: 0.001
+  label_weight: [0.228, 5.802]
+  batch_size: 16
+
+TFE:
+  hidden_dim: 128
+  num_encoder_layers: 2
+  num_heads: 4
+  dropout: 0.2
+  lr: 0.0007585775750291836
+  label_weight: [0.78324, 8.46187]
+  batch_size: 16

@@ -1,0 +1,30 @@
+pLM: Ankh # or ProtT5
+data:    # a list of file names of the data to be embedded and the label (use same name)
+  - test
+  - train_pos
+  - train_neg0
+  - train_neg1
+  - train_neg2
+  - train_neg3
+  - train_neg4
+  - train_neg5
+  - train_neg6
+  - train_neg7
+  - train_neg8
+  - train_neg9
+  - train_neg10
+  - train_neg11
+  - train_neg12
+  - train_neg13
+  - train_neg14
+  - train_neg15
+
+data_dir: data/ # the directory where the data is stored
+
+label_dir: labels/ # the directory where the labels are stored
+
+embed_save_dir: embeds/ # the directory where the model is saved
+
+label_save_dir: truncated_labels/ # the directory where the labels are saved
+
+truncate: 512 # the maximum length of the input sequence
