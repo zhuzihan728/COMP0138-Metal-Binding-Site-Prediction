@@ -2,7 +2,7 @@
 
 ## Challenge
 
-[Metal Binding Site Challenge](https://drive.google.com/drive/folders/1wQWuywtJPw70nzqjhN5r11F1Fk5DYawK) held by [Uniprot](https://www.uniprot.org/).
+[Metal Binding Site Challenge](https://drive.google.com/drive/folders/1wQWuywtJPw70nzqjhN5r11F1Fk5DYawK) held by [UniProt](https://www.uniprot.org/).
 
 ## Data Source
 
