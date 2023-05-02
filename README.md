@@ -17,6 +17,7 @@
 
 ```txt
 .
+├── colab_scripts/          for UniProt data analysis and preprocessing.
 ├── data/                   zipped training and test data in FASTA.
 ├── hyper-files/            the hyperparameter gird search results in csv.
 ├── hyper_tune/             the hyperparameter tuning pipeline.
