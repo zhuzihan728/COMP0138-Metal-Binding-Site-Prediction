@@ -21,6 +21,7 @@
 ├── hyper-files/            the hyperparameter gird search results in csv.
 ├── hyper_tune/             the hyperparameter tuning pipeline.
 ├── label_encode/           containing class encodings in json, and the ChEBI-ID of the metal classes and metal-binding annotation file provided by UNiProt.
+├── labels/                 the label files in npz in correspondence with the data files in data/
 ├── models/                 trained models
 ├── result_analysis/        notebooks for model performance analysis and visualization
 ├── thres_tune/             threshold tuning results in csv
