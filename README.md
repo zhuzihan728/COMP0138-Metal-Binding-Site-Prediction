@@ -1,4 +1,5 @@
-# COMP0138-Metal-Binding-Site-Prediction
+# COMP0138-Metal-Binding-Site-Prediction 
+[Project Report](./project_report.pdf)
 
 ## Challenge
 
